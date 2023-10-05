@@ -77,4 +77,4 @@ function eliminarProducto(index) {
             mostrarCarrito();
         };
 
-
+        

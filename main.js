@@ -1,8 +1,3 @@
-
-const titulo= document.getElementById("tituloPrincipal")
-titulo.innerText = "Tienda de Pioneer DJ"
-titulo.className = "titulo";
-
 let productsContainer = document.getElementById("products-container");
 
 
@@ -38,6 +33,7 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
 let btnCleanCart = document.getElementById("li");
 
+sumarPrecios(productos)
 
 btnCleanCart.onclick = limpiarCarrito;
 
